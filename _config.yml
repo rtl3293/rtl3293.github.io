@@ -1,0 +1,21 @@
+# Site settings
+title: RyLon Code
+header-img: img/home-bg.png
+email: ryan.tlonergan@gmail.com
+copyright_name: rtl3293
+description: > # this means to ignore newlines until "baseurl:"
+  Learning to Code, One Lesson at a Time
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  rtl3293
+learn_profile: rtl3293
+email_username: ryan.tlonergan@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
